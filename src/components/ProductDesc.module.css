@@ -1,0 +1,36 @@
+.product {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: 0.1rem solid black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.product_selected {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: 0.1rem solid black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color:aquamarine;
+}
+img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+.name {
+    margin: 0;
+    font-size: 1rem;
+}
+.desc {
+    margin: 0;
+    font-size: 0.9rem;
+    margin-right: auto;
+}
+.btn_del {
+    margin-top: auto;
+}
